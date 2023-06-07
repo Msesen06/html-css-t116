@@ -1,0 +1,36 @@
+/*  yorum satırı */
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border; /* bunu yapmazsak kaymalar oluyor  */
+}
+
+body{
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    font-size: 20px;
+
+}
+a {
+    text-decoration: none;
+}
+
+input, textarea {
+    border: 2px solid rgb(7, 119, 33);
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+}
+button {
+    border: 2px solid rgb(7, 119, 33);
+    border-radius: 8px;
+    background-color: rgb(7, 119, 33);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(14, 14, 148);
+    padding: 0 5px 0 5px;
+    
+}
